@@ -1,0 +1,38 @@
+2022-11-12T21:57:58+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_637016e618f17httplocalhostwoocomercewordpresswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/woocomerce\/wordpress\/wp-admin\/"}
+
+2022-11-12T21:58:03+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5011 milliseconds with 0 bytes received
+
+2022-11-12T21:58:06+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 2022111221580301024524701211230B53,2022111221580301024524701211230B53
+x-tt-trace-host: 017721af1b5a737cac89c3c00d66d593112c7abab4c13e953f02108e218e6ba491bfe71d23706edb7a7cfd8d73dbf6d4876f3347ac0a2d80d74df8d5f5693e611680ab2fe2f4618f1e4c326d4e99ae7e44929592cb8d204ce35555e57a676df09d
+Content-Encoding: gzip
+Content-Length: 213
+X-Origin-Response-Time: 2667,23.64.122.102
+X-Akamai-Request-ID: 81ab4fe2.32087b30
+Date: Sat, 12 Nov 2022 21:58:06 GMT
+X-Cache: TCP_MISS from a23-44-231-31.deploy.akamaitechnologies.com (AkamaiGHost/10.10.1-44825277) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-64-122-102.deploy.akamaitechnologies.com (AkamaiGHost/10.10.1-44825277) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=272, origin; dur=2666
+Server-Timing: inner; dur=2664
+X-Parent-Response-Time: 2936,23.44.231.31
+
+{"code":0,"msg":"ok","data":{"app_secret":"c3cde96c83c324a18dfcdb14856123b18cfcaca8","app_id":"7165252186882965505","external_data_key":"ccf7e872-c0f9-4305-89a6-dbd29d23194b","redirect_uri":"http:\/\/localhost\/woocomerce\/wordpress\/wp-admin\/"}}
+
+2022-11-12T22:00:28+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T22:00:28+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T22:01:25+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T22:01:32+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T22:02:13+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T22:02:22+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
+2022-11-12T22:02:37+00:00 DEBUG tt4b_product_sync: missing access token for tt4b_product_sync
